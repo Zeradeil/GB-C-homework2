@@ -4,3 +4,7 @@
 // 456 -> 5
 // 782 -> 8
 // 918 -> 1
+
+System.Console.Write("Введите 3-х значное число => ");
+int number = Convert.ToInt32(System.Console.ReadLine());
+System.Console.WriteLine($"Вторая цифра {number % 100 / 10}");
